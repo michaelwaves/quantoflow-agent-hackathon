@@ -1,0 +1,2 @@
+numpy==2.2.3
+skimage==0.0
