@@ -56,6 +56,12 @@ print(f"Total faces: {len(faces)}, Total labels: {len(labels)}")
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 face_recognizer.train(faces, np.array(labels))
 
+<<<<<<< HEAD
 # test_image = faces[1]  # Use the first training image, for instance
 # predicted_label, confidence = face_recognizer.predict(test_image)
 # print(f"Predicted: {label_dict[predicted_label]}, Confidence: {confidence}")
+=======
+test_image = faces[1]  # Use the first training image, for instance
+predicted_label, confidence = face_recognizer.predict(test_image)
+print(f"Predicted: {label_dict[predicted_label]}, Confidence: {confidence}")
+>>>>>>> 7d385272d74a047e6509f1d4160a3d5a95200fe6
